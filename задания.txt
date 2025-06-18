@@ -1,0 +1,80 @@
+Запустить
+Код: Выполните задание для получения проверочного кода.
+
+Task
+HTML
+CSS
+Result
+Tests
+Укажите элементу с классом box_1 высоту в половину высоты экрана.
+Укажите элементу с классом box_2 ширину и высоту по 400px.
+Укажите элементу с классом nested_2_1 ширину и высоту по 50%.
+Укажите элементу с классом nested_2_1_1 ширину и высоту по 50%.
+Укажите в качестве высоты и ширины элемента с классом box_3 половину ширины экрана.
+
+
+<html>
+
+<head>
+</head>
+
+<body>
+  <div class='box_1'></div>
+  <div class='box_2'>
+  	<div class='nested_2_1'>
+	  	<div class='nested_2_1_1'></div>
+  	</div>
+  </div>
+  <div class='box_3'></div>
+</body>
+
+</html>
+
+
+
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+div{
+	width: 100px;
+	height: 100px;
+
+}
+
+.box_1{
+	background-color: #1bb6ab;
+height: 50vh;
+}
+
+.box_2{
+	background-color: #9c27b0;
+width: 400px;
+	height: 400px;
+}
+
+.box_3{
+	background-color: #ff9800;
+width: 50vw;
+height: 100%;
+}
+
+.nested_2_1{
+	background-color: #795548;
+width: 50%;
+	height: 50%;
+}
+
+.nested_2_1_1{
+	background-color: #009688;
+}
+
+
+
+Укажите элементу с классом box_1 высоту в половину высоты экрана
+Укажите элементу с классом box_2 ширину и высоту по 400px
+Укажите элементу с классом nested_2_1 ширину и высоту по 50%
+Укажите в качестве высоты и ширины элемента с классом box_3 половину ширины экрана
